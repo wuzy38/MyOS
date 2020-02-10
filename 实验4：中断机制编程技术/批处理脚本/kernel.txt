@@ -1,0 +1,9 @@
+SECTIONS
+{
+	. = 0x8100;
+ 	.text : { *(.text) }
+	. = 0x9900;
+      	.data : { *(.data) }
+	.rdata : { *(.rdara) }
+      	.bss : { *(.bss) }
+}

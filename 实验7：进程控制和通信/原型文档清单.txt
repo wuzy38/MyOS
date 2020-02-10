@@ -1,0 +1,32 @@
+﻿osV0.6-+---doc-----+---pro7.img    软盘映像盘
+       +           +---实验报告7.pdf     实验报告PDF格式
+       +---boot----+---boot.asm       引导扇区程序汇编源码
+       +           +---boot.bin       引导扇区程序二进制格式 
+	   +---kernal--+---kernal.asm     内核主入口汇编模块
+	   +           +---kernal.c       内核主入口c模块
+	   +           +---kernal.bin     内核程序二进制格式
+	   +           +---kernel.cmd       内核程序编译链接命令批处理脚本
+	   +functionlib+---io.asm         输入输出函数汇编源码
+	   +	       +---io.c		  输入输出函数C源码
+	   +	       +---io.h		  输入输出函数C头文件	
+	   +	       +---time.asm	  时间函数汇编源码
+	   +	       +---time.c	  时间函数C源码
+	   +	       +---time.h	  时间函数C头文件
+	   +	       +---stdlib.asm	  杂项函数汇编源码
+	   +	       +---stdlib.c	  杂项函数C源码
+	   +	       +---stdlib.h	  杂项函数C头文件
+	   +	       +---string.c	  字符串处理函数C源码
+	   +	       +---string.h	  字符串处理函数C头文件
+
+	   +newprocess+             +---process1.bin
+	   +                   +             +---process1.asm
+	   +                   +             +---process1.c
+	   +   old   +             +---process2.bin
+	   +           +             +---process2.asm
+	   +           +             +---process2.c
+	   +           +             +---process3.bin
+	   +           +             +---process3.asm
+	   +           +             +---process3.c
+	   +           +             +---process4.bin
+	   +           +             +---process4.asm
+	   +           +             +---process4.c
