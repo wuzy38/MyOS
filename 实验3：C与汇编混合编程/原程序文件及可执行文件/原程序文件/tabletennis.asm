@@ -17,7 +17,7 @@ global _Getkey
 start:
 	xor eax,eax
 	mov ax,_Gamestart
-	call eax
+	call eax					; 因为调用C程序返回时，栈会弹回32位，所以压栈也要压32位
     mov ax,cs
 	mov ds,ax					; DS = CS
 	mov es,ax					; ES = CS
